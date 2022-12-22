@@ -1,0 +1,32 @@
+{
+  "name": "desafioclase16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nahirmm/backend-desafioClase16.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nahirmm/backend-desafioClase16/issues"
+  },
+  "homepage": "https://github.com/Nahirmm/backend-desafioClase16#readme",
+  "dependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "knex": "^2.0.0",
+    "moment": "^2.29.3",
+    "mysql": "^2.18.1",
+    "router": "^1.3.6",
+    "socket.io": "^4.4.1",
+    "sqlite3": "^5.0.4"
+  }
+}
